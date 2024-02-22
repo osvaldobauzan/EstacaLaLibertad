@@ -1,228 +1,492 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Estaca La Libertad</title>
-    <script src="https://kit.fontawesome.com/3b45398fe5.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/3b45398fe5.js"
+      crossorigin="anonymous"
+    ></script>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="../path/to/flowbite/dist/flowbite.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.js"></script>
-    <link rel="icon" type="image/x-icon" href="./assets/logo2024-white-copia.png">
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="./assets/logo2024-white-copia.png"
+    />
   </head>
- <body class='bg-slate-900'>
+  <body class="bg-slate-900">
+    <nav class="bg-slate-900 mr-12">
+      <div
+        class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4"
+      >
+        <span
+          class="self-center text-2xl font-semibold whitespace-nowrap text-white"
+        ></span>
 
-      <nav class="bg-slate-900 mr-12">
-        <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-          
-              <span class="self-center text-2xl font-semibold whitespace-nowrap text-white"></span>
-         
-          <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm  rounded-lg md:hidden focus:outline-none focus:ring-2 text-gray-400 hover:bg-gray-700 focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
-              <span class="sr-only">Open main menu</span>
-              <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
-                  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
-              </svg>
-          </button>
-          <div class="hidden w-full md:block md:w-auto" id="navbar-default">
-            <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border rounded-lg md:flex-row md:space-x-8 rtl:space-x-reverse md:border-0 bg-gray-800 md:bg-slate-900 border-gray-700">
-              <li>
-                <a href="#entrevista" class="block py-2 px-3 rounded md:border-0 md:p-0 text-white md:hover:text-blue-500 hover:bg-gray-700 hover:text-white md:hover:bg-transparent" aria-current="page">Entrevista</a>
-              </li>
-              <li>
-                <a href="#recursos" class="block py-2 px-3 rounded md:border-0 md:p-0 text-white md:hover:text-blue-500 hover:bg-gray-700 hover:text-white md:hover:bg-transparent">Recursos</a>
-              </li>
-              <li>
-                <a href="#calendario" class="block py-2 px-3 rounded md:border-0 md:p-0 text-white md:hover:text-blue-500 hover:bg-gray-700 hover:text-white md:hover:bg-transparent">Calendario</a>
-              </li>
-              <li>
-                <a href="#historia" class="block py-2 px-3 rounded md:border-0 md:p-0 text-white md:hover:text-blue-500 hover:bg-gray-700 hover:text-white md:hover:bg-transparent">Historia Familiar</a>
-              </li>
-            </ul>
-          </div>
+        <button
+          data-collapse-toggle="navbar-default"
+          type="button"
+          class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm rounded-lg md:hidden focus:outline-none focus:ring-2 text-gray-400 hover:bg-gray-700 focus:ring-gray-600"
+          aria-controls="navbar-default"
+          aria-expanded="false"
+        >
+          <span class="sr-only">Open main menu</span>
+          <svg
+            class="w-5 h-5"
+            aria-hidden="true"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 17 14"
+          >
+            <path
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M1 1h15M1 7h15M1 13h15"
+            />
+          </svg>
+        </button>
+        <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+          <ul
+            class="font-medium flex flex-col p-4 md:p-0 mt-4 border rounded-lg md:flex-row md:space-x-8 rtl:space-x-reverse md:border-0 bg-gray-800 md:bg-slate-900 border-gray-700"
+          >
+            <li>
+              <a
+                href="#entrevista"
+                class="block py-2 px-3 rounded md:border-0 md:p-0 text-white md:hover:text-blue-500 hover:bg-gray-700 hover:text-white md:hover:bg-transparent"
+                aria-current="page"
+                >Entrevista</a
+              >
+            </li>
+            <li>
+              <a
+                href="#recursos"
+                class="block py-2 px-3 rounded md:border-0 md:p-0 text-white md:hover:text-blue-500 hover:bg-gray-700 hover:text-white md:hover:bg-transparent"
+                >Recursos</a
+              >
+            </li>
+            <li>
+              <a
+                href="#calendario"
+                class="block py-2 px-3 rounded md:border-0 md:p-0 text-white md:hover:text-blue-500 hover:bg-gray-700 hover:text-white md:hover:bg-transparent"
+                >Calendario</a
+              >
+            </li>
+            <li>
+              <a
+                href="#historia"
+                class="block py-2 px-3 rounded md:border-0 md:p-0 text-white md:hover:text-blue-500 hover:bg-gray-700 hover:text-white md:hover:bg-transparent"
+                >Historia Familiar</a
+              >
+            </li>
+          </ul>
         </div>
-      </nav>
+      </div>
+    </nav>
 
-      
-
-<section id="main" class="pt-5 pb-7 px-12 flex lg:pt-7 lg:pb-2 justify-center lg:text-left">
-  <div class="lg:mt-10 text-left justify-center py-8 lg:pb-12 max-w-4xl">
-    <div class="flex items-center pb-6">
-        <img src="./assets/logo2024-white-copia.png" alt="" class="h-20 p-2 mr-4 mb-4">
-          <h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl lg:text-6xl text-white">Estaca La Libertad</h1>
+    <section
+      id="main"
+      class="pt-5 pb-7 px-12 flex lg:pt-7 lg:pb-2 justify-center lg:text-left"
+    >
+      <div class="lg:mt-10 text-left justify-center py-8 lg:pb-12 max-w-4xl">
+        <div class="flex items-center pb-6">
+          <img
+            src="./assets/logo2024-white-copia.png"
+            alt=""
+            class="h-20 p-2 mr-4 mb-4"
+          />
+          <h1
+            class="mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl lg:text-6xl text-white"
+          >
+            Estaca La Libertad
+          </h1>
           <!-- Otro contenido si es necesario -->
-    </div>
-      <p class="mb-14 pl-2 text-lg font-normal text-gray-400 lg:text-xl text-left w-auto">¡Hola! Te damos la bienvenida al centro oficial de recursos de la estaca Puebla México La Libertad.</p>
-      <div class="flex flex-col space-y-10 sm:flex-row pl-4 text-left sm:space-y-0">
+        </div>
+        <p
+          class="mb-14 pl-2 text-lg font-normal text-gray-400 lg:text-xl text-left w-auto"
+        >
+          ¡Hola! Te damos la bienvenida al centro oficial de recursos de la
+          estaca Puebla México La Libertad.
+        </p>
+        <div
+          class="flex flex-col space-y-10 sm:flex-row pl-4 text-left sm:space-y-0"
+        >
           <a href="#entrevista" class="">
-            <button type="button" class="text-white bg-blue-600 hover:bg-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-800 font-medium rounded-full text-sm p-2.5 text-left inline-flex items-center me-2">
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 13.5 12 21m0 0-7.5-7.5M12 21V3" />
+            <button
+              type="button"
+              class="text-white bg-blue-600 hover:bg-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-800 font-medium rounded-full text-sm p-2.5 text-left inline-flex items-center me-2"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-6 h-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M19.5 13.5 12 21m0 0-7.5-7.5M12 21V3"
+                />
               </svg>
               <span class="sr-only">Icon description</span>
-              </button>
+            </button>
           </a>
-           
+        </div>
       </div>
-  </div>
-</section>
+    </section>
 
-<section class="pt-5 pb-3 px-4 flex lg:pt-7 lg:pb-2 justify-center text-left">  
-    <div class="m-12 border-t border-b text-gray-600 shadow-md">
-      <div class="max-w-4xl flex h-full flex-col text-gray-600 md:flex-row py-4">
-        <div class="relative py-8 md:w-4/6"> 
-          <div class="flex items-center pb-6">
-            <svg class="w-6 h-6 text-gray-800 text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 20">
-              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4H1m3 4H1m3 4H1m3 4H1m6.071.286a3.429 3.429 0 1 1 6.858 0M4 1h12a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1Zm9 6.5a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0Z"/>
-          </svg>
-            <h3
-              class="ml-3 font-body text-3xl font-semibold text-white"
-              id="entrevista"
+    <section
+      class="pt-5 pb-3 px-4 flex lg:pt-7 lg:pb-2 justify-center text-left"
+    >
+      <div class="m-12 border-t border-b text-gray-600 shadow-md">
+        <div
+          class="max-w-4xl flex h-full flex-col text-gray-600 md:flex-row py-4"
+        >
+          <div class="relative py-8 md:w-4/6">
+            <div class="flex items-center pb-6">
+              <svg
+                class="w-6 h-6 text-gray-800 text-white"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 18 20"
+              >
+                <path
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 4H1m3 4H1m3 4H1m3 4H1m6.071.286a3.429 3.429 0 1 1 6.858 0M4 1h12a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1Zm9 6.5a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0Z"
+                />
+              </svg>
+              <h3
+                class="ml-3 font-body text-3xl font-semibold text-white"
+                id="entrevista"
+              >
+                Entrevista
+              </h3>
+            </div>
+            <p class="font-body font-light text-white lg:pb-24">
+              Aquí podrás agendar una entrevista con la presidencia de estaca. ↓
+            </p>
+
+            <div class="mt-12 flex flex-col sm:flex-row">
+              <a
+                href="https://outlook.office365.com/owa/calendar/EntrevistasLaLibertad@etms.com.mx/bookings/"
+                target="_blank"
+              >
+                <button
+                  type="button"
+                  class="text-white bg-blue-600 hover:bg-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-800 font-medium rounded-full text-sm p-2.5 text-left inline-flex items-center me-2"
+                >
+                  Agendar Entrevista
+                </button>
+              </a>
+            </div>
+          </div>
+          <div class="mx-auto flex items-center px-5 pt-1 md:p-4">
+            <img
+              class="block h-3/4 max-w-full rounded-lg"
+              src="./assets/entrevista_img.jpg"
+              alt="Shop image"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section
+      class="pt-5 pb-3 px-4 flex lg:pt-7 lg:pb-2 justify-center text-left"
+    >
+      <div class="m-8 border-b text-gray-600 shadow-md">
+        <div class="max-w-4xl flex h-full flex-col text-gray-600 md:flex-row">
+          <div class="relative py-2 md:w-4/6">
+            <div class="flex items-center pb-8">
+              <svg
+                class="w-6 h-6 text-white"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M8 12.7a2 2 0 0 1-1 .3H3v6c0 1.1.9 2 2 2h7a2 2 0 0 0 2-2h-2a4 4 0 0 1-4-4v-2.3ZM7 11V7a2 2 0 0 0-1 .7l-2.5 2.9a2 2 0 0 0-.3.4H7Z"
+                  clip-rule="evenodd"
+                />
+                <path
+                  fill-rule="evenodd"
+                  d="M14 3v4h-3.8c0-.2.2-.3.3-.4l2.4-2.9a2 2 0 0 1 1.1-.6Zm2 0v4a2 2 0 0 1-2 2h-4v6c0 1.1.9 2 2 2h7a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2h-3Z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+              <h3
+                class="ml-3 font-body text-3xl font-semibold text-white"
+                id="recursos"
+              >
+                Recursos de Autosuficiencia
+              </h3>
+            </div>
+            <p class="font-body font-light text-white lg:pb-32">
+              Te invitamos a consultar los recursos de autosuficiencia de la
+              Estaca. ↓
+            </p>
+
+            <div class="mt-12 flex flex-col sm:flex-row">
+              <a
+                href="https://www.autosuficiencialalibertad.com/"
+                target="_blank"
+              >
+                <button
+                  type="button"
+                  class="text-white bg-blue-600 hover:bg-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-800 font-medium rounded-full text-sm p-2.5 text-left inline-flex items-center me-2"
+                >
+                  Consultar Recursos
+                </button>
+              </a>
+            </div>
+          </div>
+          <div class="mx-auto flex items-center px-5 pt-1">
+            <img
+              class="block h-2/3 max-w-full rounded-lg"
+              src="./assets/Autosuficiencia_img.jpg"
+              alt="Shop image"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section
+      class="pt-5 pb-3 px-4 flex lg:pt-7 lg:pb-2 justify-center text-left"
+    >
+      <div class="m-8 border-b text-gray-600 shadow-md">
+        <div
+          class="max-w-4xl flex h-full flex-col text-gray-600 md:flex-row py-4"
+        >
+          <div class="relative py-8 pr-24 md:w-4/6">
+            <div class="flex items-center pb-6">
+              <svg
+                class="w-6 h-6 text-white"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 10h16m-8-3V4M7 7V4m10 3V4M5 20h14c.6 0 1-.4 1-1V7c0-.6-.4-1-1-1H5a1 1 0 0 0-1 1v12c0 .6.4 1 1 1Zm3-7h0v0h0v0Zm4 0h0v0h0v0Zm4 0h0v0h0v0Zm-8 4h0v0h0v0Zm4 0h0v0h0v0Zm4 0h0v0h0v0Z"
+                />
+              </svg>
+              <h3
+                class="ml-3 font-body text-3xl font-semibold text-white"
+                id="calendario"
+              >
+                Calendario
+              </h3>
+            </div>
+            <p class="font-body font-light text-white lg:pb-20">
+              ¡Aparta la fecha! ↓
+            </p>
+
+            <div class="mt-12 flex flex-col sm:flex-row">
+              <a href="https://id.churchofjesuschrist.org/" target="_blank">
+                <button
+                  type="button"
+                  class="mt-4 text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-4 focus:ring-blue-800 font-medium rounded-full text-sm px-5 py-2.5 text-center me-2 mb-2"
+                >
+                  Calendario
+                </button>
+              </a>
+              <a
+                href="./assets/PLAN Y CALENDARIO ANUAL 2024.pdf"
+                target="_blank"
+              >
+                <button
+                  type="button"
+                  class="mt-4 text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-4 focus:ring-blue-800 font-medium rounded-full text-sm px-5 py-2.5 text-center me-2 mb-2"
+                >
+                  Plan Anual 2024
+                </button>
+              </a>
+            </div>
+          </div>
+          <div class="mx-auto flex items-center px-5 pt-1 lg:py-4">
+            <img
+              class="block h-3/4 max-w-full rounded-lg"
+              src="./assets/calendario_img.jpg"
+              alt="Shop image"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section
+      class="pt-5 pb-3 px-7 flex lg:pt-7 lg:pb-2 justify-center text-left"
+    >
+      <div class="m-8 border-b text-gray-600 shadow-md">
+        <div class="max-w-4xl flex h-full flex-col text-gray-600 md:flex-row">
+          <div class="relative py-8 pr-24 md:w-4/6">
+            <div class="flex items-center pb-6">
+              <svg
+                class="w-6 h-6 text-white"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-width="2"
+                  d="M4.5 17H4a1 1 0 0 1-1-1 3 3 0 0 1 3-3h1m0-3a2.5 2.5 0 1 1 2-4.5M19.5 17h.5c.6 0 1-.4 1-1a3 3 0 0 0-3-3h-1m0-3a2.5 2.5 0 1 0-2-4.5m.5 13.5h-7a1 1 0 0 1-1-1 3 3 0 0 1 3-3h3a3 3 0 0 1 3 3c0 .6-.4 1-1 1Zm-1-9.5a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0Z"
+                />
+              </svg>
+              <h3
+                class="ml-3 font-body text-3xl font-semibold text-white"
+                id="historia"
+              >
+                Historia Familiar
+              </h3>
+            </div>
+            <p class="font-body font-light text-white lg:pb-20">
+              No olvidemos a nuestros antepasados ¿Ya enviaste sus nombres al
+              templo? ↓
+            </p>
+
+            <div class="mt-12 flex flex-col sm:flex-row">
+              <a href="https://www.familysearch.org/es/" target="_blank">
+                <button
+                  id="historia"
+                  type="button"
+                  class="text-white bg-blue-600 hover:bg-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-800 font-medium rounded-full text-sm p-2.5 text-left inline-flex items-center me-2"
+                >
+                  Historia Familiar
+                </button>
+              </a>
+            </div>
+          </div>
+          <div class="mx-auto flex items-center px-5 pt-1">
+            <img
+              class="block h-2/3 max-w-full rounded-lg"
+              src="./assets/hf_imh.jpeg"
+              alt="Shop image"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- NUEVO -->
+
+    <section
+      class="pt-5 pb-3 px-7 flex lg:pt-7 lg:pb-2 justify-center text-left"
+    >
+      <div class="m-8 border-b text-gray-600 shadow-md">
+        <div class="max-w-4xl flex h-full flex-col text-gray-600 md:flex-row">
+          <div class="relative py-8 pr-24 md:w-4/6">
+            <div class="flex items-center pb-6">
+              <svg
+                class="w-6 h-6 text-white"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M8 12.7a2 2 0 0 1-1 .3H3v6c0 1.1.9 2 2 2h7a2 2 0 0 0 2-2h-2a4 4 0 0 1-4-4v-2.3ZM7 11V7a2 2 0 0 0-1 .7l-2.5 2.9a2 2 0 0 0-.3.4H7Z"
+                  clip-rule="evenodd"
+                />
+                <path
+                  fill-rule="evenodd"
+                  d="M14 3v4h-3.8c0-.2.2-.3.3-.4l2.4-2.9a2 2 0 0 1 1.1-.6Zm2 0v4a2 2 0 0 1-2 2h-4v6c0 1.1.9 2 2 2h7a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2h-3Z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+              <h3
+                class="ml-3 font-body text-3xl font-semibold text-white"
+                id="historia"
+              >
+                Finanzas
+              </h3>
+            </div>
+            <p class="font-body font-light text-white lg:pb-20">
+              Aquí podrás encontrar información financiera para líderes
+            </p>
+
+            <div class="mt-12 flex flex-col sm:flex-row">
+              <a href="https://bauzan.notion.site/Finanzas-Estaca-La-Libertad-4e99691f770b4a3d9a220151cbe7f3ff?pvs=4" target="_blank">
+                <button
+                  id="historia"
+                  type="button"
+                  class="text-white bg-blue-600 hover:bg-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-800 font-medium rounded-full text-sm p-2.5 text-left inline-flex items-center me-2"
+                >
+                  Finanzas
+                </button>
+              </a>
+            </div>
+          </div>
+          <div class="mx-auto flex items-center px-5 pt-1">
+            <img
+              class="block h-2/3 max-w-full rounded-lg"
+              src="./assets/fin.jpeg"
+              alt="Shop image"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- NUEVO -->
+
+    <footer
+      class="rounded-lg shadow bg-slate-900 m-4 mt-20 sm:flex sm:flex-col sm:text-center-center sm:justify-between"
+    >
+      <div class="w-full max-w-screen-xl mx-auto p-4 md:py-8 lg:max-w-4xl">
+        <div
+          class="lg:flex lg:flex-row lg:justify-between sm:flex sm:flex-row sm:justify-between flex flex-col items-center space-y-7"
+        >
+          <a
+            href="#main"
+            class="flex w-auto items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse"
+          >
+            <img
+              src="./assets/logo2024-white-copia.png"
+              class="h-12"
+              alt="Flowbite Logo"
+            />
+          </a>
+          <ul
+            class="flex flex-wrap items-center mb-6 text-sm font-medium sm:mb-0 text-gray-400"
+          >
+            <span class="block text-sm sm:text-center text-gray-400"
+              >© 2024
+              <a href="https://www.bauzantech.com/" class="hover:underline"
+                >Bauzan Tech Solutions</a
+              >. All Rights Reserved.</span
             >
-              Entrevista
-            </h3>
-          </div>
-          <p class="font-body font-light text-white lg:pb-24 ">Aquí podrás agendar una entrevista con la presidencia de estaca. ↓</p>
-          
-          <div class="mt-12 flex flex-col sm:flex-row">
-            <a href="https://outlook.office365.com/owa/calendar/EntrevistasLaLibertad@etms.com.mx/bookings/" target="_blank">
-              <button  type="button" class="text-white bg-blue-600 hover:bg-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-800 font-medium rounded-full text-sm p-2.5 text-left inline-flex items-center me-2">Agendar Entrevista</button>
-            </a>
-          </div>
-        </div>
-        <div class="mx-auto flex items-center px-5 pt-1 md:p-4">
-          <img class="block h-3/4 max-w-full rounded-lg" src="./assets/entrevista_img.jpg" alt="Shop image" />
-        </div>
-      </div>
-    </div>
-</section>
-
-
-<section class="pt-5 pb-3  px-4 flex lg:pt-7 lg:pb-2 justify-center text-left">  
-  <div class="m-8 border-b text-gray-600 shadow-md">
-    <div class="max-w-4xl flex h-full flex-col text-gray-600 md:flex-row ">
-      <div class="relative py-2 md:w-4/6"> 
-        <div class="flex items-center pb-8">
-          <svg class="w-6 h-6 text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
-            <path fill-rule="evenodd" d="M8 12.7a2 2 0 0 1-1 .3H3v6c0 1.1.9 2 2 2h7a2 2 0 0 0 2-2h-2a4 4 0 0 1-4-4v-2.3ZM7 11V7a2 2 0 0 0-1 .7l-2.5 2.9a2 2 0 0 0-.3.4H7Z" clip-rule="evenodd"/>
-            <path fill-rule="evenodd" d="M14 3v4h-3.8c0-.2.2-.3.3-.4l2.4-2.9a2 2 0 0 1 1.1-.6Zm2 0v4a2 2 0 0 1-2 2h-4v6c0 1.1.9 2 2 2h7a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2h-3Z" clip-rule="evenodd"/>
-          </svg>    
-          <h3
-            class="ml-3 font-body text-3xl font-semibold text-white"
-            id="recursos"
-          >
-            Recursos de Autosuficiencia
-          </h3>
-        </div>
-        <p class="font-body font-light text-white lg:pb-32 ">Te invitamos a consultar los recursos de autosuficiencia de la Estaca. ↓</p>
-        
-        <div class="mt-12 flex flex-col sm:flex-row">
-          <a href="https://www.autosuficiencialalibertad.com/" target="_blank">
-            <button  type="button" class="text-white bg-blue-600 hover:bg-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-800 font-medium rounded-full text-sm p-2.5 text-left inline-flex items-center me-2">Consultar Recursos</button>
-          </a>
-        </div>
-      </div>
-      <div class="mx-auto flex items-center px-5 pt-1 ">
-        <img class="block h-2/3 max-w-full rounded-lg" src="./assets/Autosuficiencia_img.jpg" alt="Shop image" />
-
-      </div>
-    </div>
-  </div>
-</section>
-
-
-<section class="pt-5 pb-3 px-4 flex lg:pt-7 lg:pb-2 justify-center text-left">  
-  <div class="m-8 border-b text-gray-600 shadow-md">
-    <div class="max-w-4xl flex h-full flex-col text-gray-600 md:flex-row py-4">
-      <div class="relative py-8 pr-24 md:w-4/6"> 
-        <div class="flex items-center pb-6">
-          <svg class="w-6 h-6 text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
-            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 10h16m-8-3V4M7 7V4m10 3V4M5 20h14c.6 0 1-.4 1-1V7c0-.6-.4-1-1-1H5a1 1 0 0 0-1 1v12c0 .6.4 1 1 1Zm3-7h0v0h0v0Zm4 0h0v0h0v0Zm4 0h0v0h0v0Zm-8 4h0v0h0v0Zm4 0h0v0h0v0Zm4 0h0v0h0v0Z"/>
-          </svg>
-          <h3
-            class="ml-3 font-body text-3xl font-semibold text-white"
-            id="calendario"
-          >
-            Calendario
-          </h3>
-        </div>
-        <p class="font-body font-light text-white lg:pb-20 ">¡Aparta la fecha! ↓</p>
-        
-        <div class="mt-12 flex flex-col sm:flex-row">
-          <a href="https://id.churchofjesuschrist.org/" target="_blank">
-            <button  type="button" class="mt-4 text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-4 focus:ring-blue-800 font-medium rounded-full text-sm px-5 py-2.5 text-center me-2 mb-2">Calendario</button>
-          </a>
-            <a href="./assets/PLAN Y CALENDARIO ANUAL 2024.pdf" target="_blank">
-              <button type="button" class="mt-4 text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-4 focus:ring-blue-800 font-medium rounded-full text-sm px-5 py-2.5 text-center me-2 mb-2">Plan Anual 2024</button>
-            </a>
-        </div>
-      </div>
-      <div class="mx-auto flex items-center px-5 pt-1 lg:py-4">
-        <img class="block h-3/4 max-w-full rounded-lg" src="./assets/calendario_img.jpg" alt="Shop image" />
-
-      </div>
-    </div>
-  </div>
-</section>
-
-
-<section class="pt-5 pb-3 px-7 flex lg:pt-7 lg:pb-2 justify-center text-left">  
-  <div class="m-8 border-b text-gray-600 shadow-md ">
-    <div class="max-w-4xl flex h-full flex-col text-gray-600 md:flex-row ">
-      <div class="relative py-8 pr-24 md:w-4/6"> 
-        <div class="flex items-center pb-6" >
-          <svg class="w-6 h-6 text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
-            <path stroke="currentColor" stroke-linecap="round" stroke-width="2" d="M4.5 17H4a1 1 0 0 1-1-1 3 3 0 0 1 3-3h1m0-3a2.5 2.5 0 1 1 2-4.5M19.5 17h.5c.6 0 1-.4 1-1a3 3 0 0 0-3-3h-1m0-3a2.5 2.5 0 1 0-2-4.5m.5 13.5h-7a1 1 0 0 1-1-1 3 3 0 0 1 3-3h3a3 3 0 0 1 3 3c0 .6-.4 1-1 1Zm-1-9.5a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0Z"/>
-          </svg>
-          <h3
-            class="ml-3 font-body text-3xl font-semibold text-white"
-            id="historia"
-          >
-            Historia Familiar
-          </h3>
-        </div>
-        <p class="font-body font-light text-white lg:pb-20 "> No olvidemos a nuestros antepasados ¿Ya enviaste sus nombres al templo? ↓</p>
-        
-        <div class="mt-12 flex flex-col sm:flex-row">
-          <a href="https://www.familysearch.org/es/" target="_blank">
-            <button id="historia" type="button" class="text-white bg-blue-600 hover:bg-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-800 font-medium rounded-full text-sm p-2.5 text-left inline-flex items-center me-2">Historia Familiar</button>
-          </a>
-        </div>
-      </div>
-      <div class="mx-auto flex items-center px-5 pt-1">
-        <img class="block h-2/3 max-w-full rounded-lg" src="./assets/hf_imh.jpeg" alt="Shop image" />
-
-      </div>
-    </div>
-  </div>
-</section>
-
-
-
-
-<footer class="rounded-lg shadow bg-slate-900 m-4 mt-20 sm:flex sm:flex-col sm:text-center-center sm:justify-between">
-  <div class="w-full max-w-screen-xl mx-auto p-4 md:py-8 lg:max-w-4xl">
-      <div class="lg:flex lg:flex-row lg:justify-between sm:flex sm:flex-row sm:justify-between flex flex-col items-center space-y-7">
-          <a href="#main" class="flex w-auto items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse">
-              <img src="./assets/logo2024-white-copia.png" class="h-12" alt="Flowbite Logo" />
-              
-          </a>
-          <ul class="flex flex-wrap items-center mb-6 text-sm font-medium sm:mb-0 text-gray-400">
-            <span class="block text-sm sm:text-center text-gray-400">© 2024 <a href="https://www.bauzantech.com/" class="hover:underline">Bauzan Tech Solutions</a>. All Rights Reserved.</span>
           </ul>
           <!-- <span class="self-center text-2xl font-semibold whitespace-nowrap text-white">
              <div class="flex flex-col text-center font-serif">
               <h1 class="font-semibold">Bauzan</h1>
               <p class="font-light text-lg">Tech Solutions</p>
             </div> -->
-            <!-- <img src="./assets/bauzanlogo.png" alt="" class="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse"> -->
+          <!-- <img src="./assets/bauzanlogo.png" alt="" class="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse"> -->
           <!-- </span>  -->
+        </div>
+        <hr class="my-6 sm:mx-auto border-gray-700 lg:my-8" />
       </div>
-      <hr class="my-6 sm:mx-auto border-gray-700 lg:my-8" />
-  </div>
-</footer>
-
-
-
-
-</body>
+    </footer>
+  </body>
 </html>
